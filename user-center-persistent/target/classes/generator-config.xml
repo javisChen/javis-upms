@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!--导入属性配置-->
+    <properties resource="jdbc.properties"/>
+
+    <!--指定特定数据库的jdbc驱动jar包的位置-->
+    <classPathEntry location="${jdbc.driverLocation}"/>
+    <context id="default" targetRuntime="MyBatis3">
+
+        <property name="javaFileEncoding" value="UTF-8"/>
+        
+        <!-- optional，旨在创建class时，对注释进行控制 -->
+        <commentGenerator>
+            <property name="suppressDate" value="true"/>
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!--jdbc的数据库连接 -->
+        <jdbcConnection
+                driverClass="${jdbc.driverClassName}"
+                connectionURL="${jdbc.url}"
+                userId="${jdbc.username}"
+                password="${jdbc.password}">
+        </jdbcConnection>
+
+        <!-- 非必需，类型处理器，在数据库类型和java类型之间的转换控制-->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <javaModelGenerator targetPackage="javis.app.persistent.po" targetProject="/Users/javischen/code/javis/back/user-center/user-center-persistent/src/main/java/">
+            <property name="enableSubPackages" value="false"/>
+            <property name="constructorBased" value="false"/>
+            <property name="immutable" value="false"/>
+            <property name="rootClass" value="javis.app.persistent.base.BaseEntity"/>
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="javis.app.persistent.dao.impl" targetProject="/Users/javischen/code/javis/back/user-center/user-center-persistent/src/main/java/">
+            <property name="enableSubPackages" value="false"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="javis.app.persistent.dao" targetProject="/Users/javischen/code/javis/back/user-center/user-center-persistent/src/main/java/">
+            <property name="enableSubPackages" value="false"/>
+            <property name="rootInterface" value="javis.app.persistent.base.IGenericMapper"/>
+        </javaClientGenerator>
+
+        <table tableName="auth_api"  domainObjectName="AuthApi" alias="aa" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="version" javaType="java.lang.Integer"/>
+            <columnOverride column="type" javaType="java.lang.Integer"/>
+        </table>
+        <table tableName="auth_menu" domainObjectName="AuthMenu" alias="am" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="type" javaType="java.lang.Integer"/>
+        </table>
+        <table tableName="auth_role_r" domainObjectName="AuthRoleR" alias="arr" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="type" javaType="java.lang.Integer"/>
+        </table>
+        <table tableName="authority" domainObjectName="Authority" alias="a" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="type" javaType="java.lang.Integer"/>
+        </table>
+        <table tableName="role" domainObjectName="Role" alias="r" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="type" javaType="java.lang.Integer"/>
+        </table>
+        <table tableName="role_user_group_r" domainObjectName="RoleUserGroupR" alias="rsgr" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="type" javaType="java.lang.Integer"/>
+        </table>
+        <table tableName="role_user_r" domainObjectName="RoleUserR" alias="rur" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="type" javaType="java.lang.Integer"/>
+        </table>
+        <table tableName="sys_file" domainObjectName="SysFile" alias="sf" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="type" javaType="java.lang.Integer"/>
+        </table>
+        <table tableName="sys_user" domainObjectName="SysUser" alias="ss" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="lock_status" javaType="java.lang.Integer"/>
+            <columnOverride column="gender" javaType="java.lang.Integer"/>
+        </table>
+        <table tableName="sys_user_login_record" domainObjectName="SysUserLoginRecord" alias="sulr" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="type" javaType="java.lang.Integer"/>
+        </table>
+        <table tableName="user_group" domainObjectName="UserGroup" alias="ug" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="type" javaType="java.lang.Integer"/>
+            <columnOverride column="pid" javaType="java.lang.Integer"/>
+        </table>
+        <table tableName="user_user_group_r" domainObjectName="UserUserGroupR" alias="uugr" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">
+            <columnOverride column="type" javaType="java.lang.Integer"/>
+        </table>
+
+    </context>
+</generatorConfiguration>
