@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.service.IService;
  * </p>
  *
  * @author javis
- * @since 2018-04-21
+ * @since 2018-04-22
  */
 public interface ISysFileService extends IService<SysFile> {
 

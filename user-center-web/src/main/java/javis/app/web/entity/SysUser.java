@@ -1,13 +1,9 @@
 package javis.app.web.entity;
 
-import com.baomidou.mybatisplus.enums.IdType;
 import java.util.Date;
-import com.baomidou.mybatisplus.annotations.TableId;
 import com.baomidou.mybatisplus.annotations.TableField;
-import com.baomidou.mybatisplus.activerecord.Model;
 import com.baomidou.mybatisplus.annotations.TableName;
-import com.baomidou.mybatisplus.annotations.TableLogic;
-import java.io.Serializable;
+import javis.app.web.base.BaseEntity;
 
 import com.baomidou.mybatisplus.annotations.Version;
 
@@ -21,20 +17,16 @@ import lombok.experimental.Accessors;
  * </p>
  *
  * @author javis
- * @since 2018-04-21
+ * @since 2018-04-22
  */
 @Data
+@EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
 @TableName("sys_user")
-public class SysUser extends Model<SysUser> {
+public class SysUser extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
 
-    /**
-     * ID
-     */
-    @TableId(value = "id", type = IdType.AUTO)
-    private Integer id;
     /**
      * 用户账号
      */
@@ -58,8 +50,7 @@ public class SysUser extends Model<SysUser> {
     /**
      * 真实姓名
      */
-    @TableField("realname")
-    private String ealname;
+    private String realname;
     /**
      * 地址
      */
@@ -71,51 +62,38 @@ public class SysUser extends Model<SysUser> {
     /**
      * 头像
      */
+    @TableField("profile_photo")
     private String profilePhoto;
     /**
      * 身份证
      */
+    @TableField("id_card_no")
     private String idCardNo;
     /**
      * 注册IP
      */
     @TableField("register_ip")
-    private String egisterIp;
+    private String registerIp;
     /**
      * 注册时间
      */
     @TableField("register_time")
-    private Date egisterTime;
+    private Date registerTime;
     /**
      * 账号锁定状态 0=正常，1=已锁定
      */
+    @TableField("lock_status")
     private Integer lockStatus;
     /**
      * 账号被锁定时间
      */
+    @TableField("lock_time")
     private Date lockTime;
     /**
      * 账号被锁原因
      */
+    @TableField("lock_reason")
     private String lockReason;
-    /**
-     * 逻辑删除状态 0=正常 1=已删除
-     */
-    @TableLogic
-    private Integer isDeleted;
-    /**
-     * 创建时间
-     */
-    private Date gmtCreate;
-    /**
-     * 更新时间
-     */
-    private Date gmtModified;
 
-
-    @Override
-    protected Serializable pkVal() {
-        return this.id;
-    }
 
 }

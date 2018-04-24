@@ -1,8 +1,12 @@
 package javis.app.web.controller;
 
 
-import org.springframework.web.bind.annotation.RequestMapping;
-
+import javis.app.web.base.BaseController;
+import javis.app.web.base.resp.SysResponse;
+import javis.app.web.entity.SysUser;
+import javis.app.web.service.ISysUserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -11,11 +15,22 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author javis
- * @since 2018-04-21
+ * @since 2018-04-22
  */
 @RestController
-@RequestMapping("/sysUser")
-public class SysUserController {
+public class SysUserController extends BaseController {
 
+    @Autowired
+    private ISysUserService sysUserService;
+
+    @PostMapping("/login")
+    public SysResponse login(SysUser sysUser) {
+        return sysUserService.login(sysUser);
+    }
+
+    @PostMapping("/logout")
+    public SysResponse logout() {
+        return SysResponse.ok();
+    }
 }
 

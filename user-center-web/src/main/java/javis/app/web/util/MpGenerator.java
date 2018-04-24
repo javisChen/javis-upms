@@ -26,7 +26,7 @@ import java.io.InputStream;
 public class MpGenerator {
 
     private static final String OUTPUT_DIR = "/Users/javischen/code/javis/back/user-center/user-center-web/src/main/java/";
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/user-center?characterEncoding=utf-8&useUnicode=true";
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/user-center?characterEncoding=utf-8&useUnicode=true&useSSL=false";
     private static final String DB_USERNAME = "root";
     private static final String DB_PWD = "root!@#$123";
     private static final String DB_DRIVER_NAME = "com.mysql.jdbc.Driver";
@@ -34,7 +34,6 @@ public class MpGenerator {
 
     @Test
     public void generateCode() {
-
         boolean serviceNameStartWithI = true;//user -> UserService, 设置成true: user -> IUserService
         generateByTables(serviceNameStartWithI, PKG);
     }
@@ -43,30 +42,33 @@ public class MpGenerator {
         DataSourceConfig dataSourceConfig = new DataSourceConfig();
         dataSourceConfig.setDbType(DbType.MYSQL).setUrl(DB_URL).setUsername(DB_USERNAME).setPassword(DB_PWD).setDriverName(DB_DRIVER_NAME);
 
-        String[] fieldPrefix = {"su", "r"};
         StrategyConfig strategyConfig = new StrategyConfig()
-                .setCapitalMode(true)
-                .fieldPrefix(fieldPrefix)
-                .setTablePrefix("su", "r")
-                .setEntityLombokModel(false)
-                .setDbColumnUnderline(true)
-                .setNaming(NamingStrategy.underline_to_camel)
-                .setLogicDeleteFieldName("is_deleted")
-//                .setInclude(tableNames)
+//                .setCapitalMode(false)
                 .setEntityLombokModel(true)
+                .setDbColumnUnderline(false)
+                .setNaming(NamingStrategy.underline_to_camel)
+                .setColumnNaming(NamingStrategy.underline_to_camel)
+//                .setTablePrefix("sys_")
                 .setRestControllerStyle(true)
-//                .setColumnNaming(NamingStrategy.underline_to_camel)
+//                .setFieldPrefix(new String[] {"as"})
+                .setSuperEntityColumns("id", "is_deleted", "gmt_create", "gmt_modified")
+                .setSuperEntityClass("javis.app.web.base.BaseEntity")
+                .setSuperControllerClass("javis.app.web.base.BaseController")
+//                .setLogicDeleteFieldName("is_deleted")
+//                .setInclude(tableNames)
                 ;//修改替换成你需要的表名，多个表名传数组
 
         GlobalConfig gc = new GlobalConfig()
-        .setOutputDir(OUTPUT_DIR)
-        .setFileOverride(true)
-        .setActiveRecord(true)
-        .setEnableCache(false)
-        .setBaseResultMap(true)
-        .setBaseColumnList(true)
-        .setAuthor("javis")
-        .setOpen(false)
+                .setOutputDir(OUTPUT_DIR)   // 生成文件的输出目录
+                .setFileOverride(true)      // 是否覆盖已有文件
+                .setActiveRecord(false) // 开启 ActiveRecord 模式
+                .setEnableCache(false) // 是否在xml中添加二级缓存配置
+                .setBaseResultMap(true) // 开启 BaseResultMap
+                .setBaseColumnList(true) // 开启 baseColumnList
+//                .setKotlin(false) // 开启 Kotlin 模式
+                .setAuthor("javis") // 开发人员
+                .setOpen(false) // 是否打开输出目录
+//                .setIdType(IdType.AUTO)
                 ;
         if (!serviceNameStartWithI) {
             gc.setServiceName("%sService");

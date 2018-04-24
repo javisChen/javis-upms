@@ -4,30 +4,46 @@
 
     <!-- 通用查询映射结果 -->
     <resultMap id="BaseResultMap" type="javis.app.web.entity.SysUser">
-        <id column="id" property="id" />
-        <result column="account" property="account" />
-        <result column="email" property="email" />
-        <result column="phone" property="phone" />
-        <result column="password" property="password" />
-        <result column="nickname" property="nickname" />
-        <result column="realname" property="ealname" />
-        <result column="address" property="address" />
-        <result column="gender" property="gender" />
-        <result column="profile_photo" property="profilePhoto" />
-        <result column="id_card_no" property="idCardNo" />
-        <result column="register_ip" property="egisterIp" />
-        <result column="register_time" property="egisterTime" />
-        <result column="lock_status" property="lockStatus" />
-        <result column="lock_time" property="lockTime" />
-        <result column="lock_reason" property="lockReason" />
-        <result column="is_deleted" property="isDeleted" />
-        <result column="gmt_create" property="gmtCreate" />
-        <result column="gmt_modified" property="gmtModified" />
+        <result column="id" property="id"/>
+        <result column="is_deleted" property="isDeleted"/>
+        <result column="gmt_create" property="gmtCreate"/>
+        <result column="gmt_modified" property="gmtModified"/>
+        <result column="account" property="account"/>
+        <result column="email" property="email"/>
+        <result column="phone" property="phone"/>
+        <result column="password" property="password"/>
+        <result column="nickname" property="nickname"/>
+        <result column="realname" property="realname"/>
+        <result column="address" property="address"/>
+        <result column="gender" property="gender"/>
+        <result column="profile_photo" property="profilePhoto"/>
+        <result column="id_card_no" property="idCardNo"/>
+        <result column="register_ip" property="registerIp"/>
+        <result column="register_time" property="registerTime"/>
+        <result column="lock_status" property="lockStatus"/>
+        <result column="lock_time" property="lockTime"/>
+        <result column="lock_reason" property="lockReason"/>
     </resultMap>
 
     <!-- 通用查询结果列 -->
     <sql id="Base_Column_List">
-        id, account, email, phone, password, nickname, realname AS ealname, address, gender, profile_photo, id_card_no, register_ip AS egisterIp, register_time AS egisterTime, lock_status, lock_time, lock_reason, is_deleted, gmt_create, gmt_modified
+        id,
+        is_deleted AS isDeleted,
+        gmt_create AS gmtCreate,
+        gmt_modified AS gmtModified,
+        account, email, phone, password, nickname, realname, address, gender, profile_photo AS profilePhoto, id_card_no AS idCardNo, register_ip AS registerIp, register_time AS registerTime, lock_status AS lockStatus, lock_time AS lockTime, lock_reason AS lockReason
     </sql>
+
+    <select id="selectOne" resultType="javis.app.web.entity.SysUser">
+        SELECT su.account, su.nickname, su.realname
+        FROM sys_user su
+        WHERE 1 = 1
+        <if test="ew.account != null and ew.account != ''">
+            AND su.account = #{ew.account}
+        </if>
+        <if test="ew.password != null and ew.password != ''">
+            AND su.password = #{ew.password}
+        </if>
+    </select>
 
 </mapper>

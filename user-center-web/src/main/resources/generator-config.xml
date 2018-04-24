@@ -32,20 +32,20 @@
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
-        <javaModelGenerator targetPackage="javis.app.persistent.po" targetProject="/Users/javischen/code/javis/back/user-center/user-center-persistent/src/main/java/">
+        <javaModelGenerator targetPackage="javis.app.web.entity.po" targetProject="/Users/javischen/code/javis/back/user-center/user-center-web/src/main/java/">
             <property name="enableSubPackages" value="false"/>
             <property name="constructorBased" value="false"/>
             <property name="immutable" value="false"/>
-            <property name="rootClass" value="javis.app.persistent.base.BaseEntity"/>
+            <!--<property name="rootClass" value="javis.app.persistent.base.BaseEntity"/>-->
         </javaModelGenerator>
 
-        <sqlMapGenerator targetPackage="javis.app.persistent.dao.impl" targetProject="/Users/javischen/code/javis/back/user-center/user-center-persistent/src/main/java/">
+        <sqlMapGenerator targetPackage="javis.app.web.dao.impl" targetProject="/Users/javischen/code/javis/back/user-center/user-center-web/src/main/java/">
             <property name="enableSubPackages" value="false"/>
         </sqlMapGenerator>
 
-        <javaClientGenerator type="XMLMAPPER" targetPackage="javis.app.persistent.dao" targetProject="/Users/javischen/code/javis/back/user-center/user-center-persistent/src/main/java/">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="javis.app.web.dao" targetProject="/Users/javischen/code/javis/back/user-center/user-center-web/src/main/java/">
             <property name="enableSubPackages" value="false"/>
-            <property name="rootInterface" value="javis.app.persistent.base.IGenericMapper"/>
+            <!--<property name="rootInterface" value="javis.app.web.base.IGenericMapper"/>-->
         </javaClientGenerator>
 
         <table tableName="auth_api"  domainObjectName="AuthApi" alias="aa" enableSelectByExample="false" enableUpdateByExample="false" enableDeleteByExample="false" enableCountByExample="false">

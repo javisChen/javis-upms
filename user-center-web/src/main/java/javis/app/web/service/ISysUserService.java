@@ -1,7 +1,8 @@
 package javis.app.web.service;
 
-import javis.app.web.entity.SysUser;
 import com.baomidou.mybatisplus.service.IService;
+import javis.app.web.base.resp.SysResponse;
+import javis.app.web.entity.SysUser;
 
 /**
  * <p>
@@ -9,8 +10,9 @@ import com.baomidou.mybatisplus.service.IService;
  * </p>
  *
  * @author javis
- * @since 2018-04-21
+ * @since 2018-04-22
  */
 public interface ISysUserService extends IService<SysUser> {
 
+    SysResponse login(SysUser sysUser);
 }

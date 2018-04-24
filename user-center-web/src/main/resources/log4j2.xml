@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+
+    <Appenders>
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+
+        <RollingFile name="RollingFile" fileName="logs/busi.log"
+                     filePattern="logs/$${date:yyyy-MM}/busi-%d{yyyy-MM-dd}.log">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Policies>
+                <!--<OnStartupTriggeringPolicy />-->
+                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>
+            </Policies>
+            <!--<DefaultRolloverStrategy>-->
+
+            <!--</DefaultRolloverStrategy>-->
+        </RollingFile>
+    </Appenders>
+
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="STDOUT"/>
+            <AppenderRef ref="RollingFile"/>
+        </Root>
+        <logger name="org.springframework" level="ERROR" />
+        <logger name="org.mybatis.spring" level="ERROR" />
+        <logger name="com.baomidou" level="INFO" />
+        <logger name="org.hibernate.validator" level="ERROR" />
+    </Loggers>
+</Configuration>

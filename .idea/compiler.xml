@@ -24,9 +24,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="user-center-cache" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="user-center-entity" target="1.8" />
-      <module name="user-center-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

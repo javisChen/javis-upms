@@ -9,7 +9,7 @@ import com.baomidou.mybatisplus.mapper.BaseMapper;
  * </p>
  *
  * @author javis
- * @since 2018-04-21
+ * @since 2018-04-22
  */
 public interface SysUserLoginRecordMapper extends BaseMapper<SysUserLoginRecord> {
 

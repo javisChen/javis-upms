@@ -4,6 +4,7 @@ package javis.app.web.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
+import javis.app.web.base.BaseController;
 
 /**
  * <p>
@@ -11,11 +12,11 @@ import org.springframework.web.bind.annotation.RestController;
  * </p>
  *
  * @author javis
- * @since 2018-04-21
+ * @since 2018-04-22
  */
 @RestController
 @RequestMapping("/sysFile")
-public class SysFileController {
+public class SysFileController extends BaseController {
 
 }
 
