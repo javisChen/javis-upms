@@ -4,6 +4,8 @@ import com.baomidou.mybatisplus.service.IService;
 import javis.app.web.base.resp.SysResponse;
 import javis.app.web.entity.SysUser;
 
+import javax.servlet.http.HttpSession;
+
 /**
  * <p>
  * 系统用户 服务类
@@ -14,5 +16,7 @@ import javis.app.web.entity.SysUser;
  */
 public interface ISysUserService extends IService<SysUser> {
 
-    SysResponse login(SysUser sysUser);
+    SysResponse login(SysUser sysUser, HttpSession session);
+
+    SysResponse update(SysUser sysUser);
 }

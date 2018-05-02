@@ -1,15 +1,13 @@
 package javis.app.web.entity;
 
-import java.util.Date;
 import com.baomidou.mybatisplus.annotations.TableField;
 import com.baomidou.mybatisplus.annotations.TableName;
 import javis.app.web.base.BaseEntity;
-
-import com.baomidou.mybatisplus.annotations.Version;
-
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+
+import java.util.Date;
 
 /**
  * <p>
@@ -23,7 +21,7 @@ import lombok.experimental.Accessors;
 @EqualsAndHashCode(callSuper = true)
 @Accessors(chain = true)
 @TableName("sys_user")
-public class SysUser extends BaseEntity {
+public class SysUser extends BaseEntity<SysUser> {
 
     private static final long serialVersionUID = 1L;
 

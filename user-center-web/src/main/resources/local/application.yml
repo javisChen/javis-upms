@@ -22,9 +22,12 @@ spring:
       pool-prepared-statements: true
       max-pool-prepared-statement-per-connection-size: 20
       filters: stat
+    url: jdbc:mysql://localhost:3306/user-center?characterEncoding=utf-8&useUnicode=true&useSSL=false
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
     default-property-inclusion: non_null
+  profiles:
+    active: dev
 mybatis-plus:
   mapper-locations: classpath:javis/app/web/dao/impl/*.xml
   type-aliases-package: javis.app.web.entity.po
