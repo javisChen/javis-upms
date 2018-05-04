@@ -2,260 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f37673c-802e-461e-addb-717d0520faae" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/5678a6ba-d2dd-498a-b141-3a44d0d67971.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-cache/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-cache/src/main/java/javis/app/cache/IBaseCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-cache/src/main/java/javis/app/cache/RedisCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-cache/src/main/java/javis/app/cache/RedisCacheEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-cache/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/KeyValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/annotation/Log.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/aop/ApiLogAop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/base/BaseRequestParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/contants/Const.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/contants/ResultEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/exception/BusinessException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/lay/LayTableResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/manager/ITokenManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/manager/Token.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/manager/impl/RedisTokenManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/page/PageRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/page/Pager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/plugin/LombokPlugin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/response/ServerResult.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/response/SysResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/util/CaptchaUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/util/FileUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/util/JsonObject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/util/JsonUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/util/Log.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/util/StrUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/util/StreamUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/src/main/java/javis/app/common/util/UUIDUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/KeyValue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/annotation/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/base/BaseRequestParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/Const$CourseScheduleState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/Const$CourseState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/Const$DeleteFlag.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/Const$MerchantLeaseState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/Const$MerchantVerifyState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/Const$MessageTemplate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/Const$NotifyPushChannel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/Const$NotifyPushObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/Const$NotifyState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/Const$UserType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/Const.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/contants/ResultEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/exception/BusinessException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/lay/LayTableResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/manager/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/page/PageRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/page/Pager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/plugin/LombokPlugin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/response/ServerResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/response/SysResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/util/CaptchaUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/util/JsonObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/util/JsonUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/util/Log.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/util/StrUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/util/StreamUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/classes/javis/app/common/util/UUIDUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-common/target/user-center-common-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/src/main/resources/generator-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/generator-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/base/BaseEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/base/IGenericMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/AuthApiMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/AuthMenuMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/AuthRoleRMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/AuthorityMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/OleMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/OleUserGroupRMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/OleUserRMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/SysFileMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/SysUserLoginRecordMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/SysUserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/UserGroupMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/dao/UserUserGroupRMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/AuthApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/AuthMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/AuthRoleR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/Authority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/Ole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/OleUserGroupR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/OleUserR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/SysFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/SysUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/SysUserLoginRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/UserGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/entity/UserUserGroupR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/AuthApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/AuthMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/AuthRoleR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/Authority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/RoleUserGroupR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/RoleUserR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/SysFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/SysUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/SysUserLoginRecord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/UserGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/po/UserUserGroupR.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/util/CodeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/javis/app/persistent/util/MpGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-persistent/target/user-center-persistent-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-service/src/main/java/javis/app/base/IGenericService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-service/target/classes/javis/app/base/IGenericService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-service/target/user-center-service-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/BootstrapApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/annotation/SysLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/aop/ApiLogAop.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/base/BaseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/base/BaseEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/base/BaseRequestParam.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/base/EntityWrapperBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/base/KeyValue.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/base/resp/SysResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/config/InterceptorConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/config/MyBatisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/config/SystemConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/config/base/JDBCConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/config/base/SpringContextConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/constants/WebConst.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysAuthApiController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysAuthMenuController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysAuthRoleRelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysAuthorityController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysFileController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysRoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysRoleUserGroupRController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysRoleUserRelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysUserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysUserGroupController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysUserLoginRecordController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/controller/SysUserUserGroupRelController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysAuthApiMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysAuthMenuMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysAuthRoleRelMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysAuthorityMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysFileMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysRoleMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysRoleUserGroupRMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysRoleUserRelMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysUserGroupMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysUserLoginRecordMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysUserMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/SysUserUserGroupRelMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysAuthApiMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysAuthMenuMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysAuthRoleRelMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysAuthorityMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysFileMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysRoleMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysRoleUserGroupRMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysRoleUserRelMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysUserGroupMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysUserLoginRecordMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/dao/impl/SysUserUserGroupRelMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysAuthApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysAuthMenu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysAuthRoleRel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysAuthority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysRoleUserGroupR.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysRoleUserRel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysUserGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysUserLoginRecord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/entity/SysUserUserGroupRel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/exception/handle/GlobalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/listener/RequestFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/security/MyRealm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/security/MyRealm2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/security/RoleRealm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/security/permission/BitAndWildPermissionResolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/security/permission/BitPermission.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/security/permission/MyRolePermissionResolver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysAuthApiService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysAuthMenuService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysAuthRoleRelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysAuthorityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysFileService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysRoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysRoleUserGroupRService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysRoleUserRelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysUserGroupService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysUserLoginRecordService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/ISysUserUserGroupRelService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysAuthApiServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysAuthMenuServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysAuthRoleRelServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysAuthorityServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysFileServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysRoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysRoleUserGroupRServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysRoleUserRelServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysUserGroupServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysUserLoginRecordServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/service/impl/SysUserUserGroupRelServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/support/page/PageContext.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/support/page/Pager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/util/CodeGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/util/ConfigUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/util/FileUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/util/MpGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/util/encrypt/MD5.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/util/io/IOUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/java/javis/app/web/util/json/JSONUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/resources/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/resources/generator-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/resources/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/resources/local/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/resources/log4j2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/resources/shiro-realm.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/main/resources/shiro.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/test/java/javis/app/persistent/BaseTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/test/java/javis/app/persistent/RoleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/test/java/javis/app/persistent/ShiroTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/test/resources/shiro-jdbc-realm.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/test/resources/shiro-realm.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/test/resources/shiro-role.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-center-web/src/test/resources/shiro.ini" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/upms-persistent/target/" />
@@ -290,11 +38,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/upms-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -355,6 +112,7 @@
         <option value="$PROJECT_DIR$/upms-persistent/pom.xml" />
         <option value="$PROJECT_DIR$/upms-cache/pom.xml" />
         <option value="$PROJECT_DIR$/upms-common/pom.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -504,12 +262,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525404005859</updated>
-      <workItem from="1525404007550" duration="388000" />
+      <workItem from="1525404007550" duration="486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="388000" />
+    <option name="totallyTimeSpent" value="486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="822" extended-state="6" />
@@ -534,8 +292,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32954547" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32954547" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info anchor="right" id="Bean Validation" />
       <window_info id="JRebel" side_tool="true" />
       <window_info id="Web" side_tool="true" />
@@ -594,6 +352,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>

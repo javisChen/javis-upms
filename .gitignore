@@ -23,6 +23,7 @@ hs_err_pid*
 
 .idea/
 .idea/*
+.idea/workspace.xml
 
 .DS_Store
 __MACOSX
