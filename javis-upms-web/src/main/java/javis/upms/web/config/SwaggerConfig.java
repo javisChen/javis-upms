@@ -1,4 +1,4 @@
-package com.sunrizetech.iot.data.config;
+package javis.upms.web.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,18 +17,18 @@ public class SwaggerConfig {
     @Bean
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
-                .host("localhost:8082")
+                .host("localhost:10808")
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.sunrizetech.iot.data.controller"))
+                .apis(RequestHandlerSelectors.basePackage("javis.upms.web.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("数据管理系统接口文档")
-                .description("Domain：/iot-data")
+                .title("UPMS API")
+                .description("Domain：/upms")
                 .version("1.0")
                 .build();
     }

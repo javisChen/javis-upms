@@ -32,13 +32,13 @@
 
     <dependencyManagement>
         <!--<dependencies>-->
-            <!--<dependency>-->
-                <!--<groupId>org.springframework.boot</groupId>-->
-                <!--<artifactId>spring-boot-dependencies</artifactId>-->
-                <!--<version>${spring.boot.dependencies.version}</version>-->
-                <!--<type>pom</type>-->
-                <!--<scope>import</scope>-->
-            <!--</dependency>-->
+        <!--<dependency>-->
+        <!--<groupId>org.springframework.boot</groupId>-->
+        <!--<artifactId>spring-boot-dependencies</artifactId>-->
+        <!--<version>${spring.boot.dependencies.version}</version>-->
+        <!--<type>pom</type>-->
+        <!--<scope>import</scope>-->
+        <!--</dependency>-->
         <!--</dependencies>-->
     </dependencyManagement>
 
@@ -62,10 +62,10 @@
     </build>
 
     <modules>
-        <module>upms-common</module>
+        <module>javis-upms-common</module>
         <!--<module>upms-cache</module>-->
         <!--<module>upms-persistent</module>-->
         <!--<module>upms-service</module>-->
-        <module>upms-web</module>
+        <module>javis-upms-web</module>
     </modules>
 </project>
